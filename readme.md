@@ -5,16 +5,10 @@ Here we have a CNN using Keras' MobileNet trained to recognize front-facing imag
 ## Installation
 
 To test the neural network on a Pokemon image of your own, the following Python libraries are needed:
-    OpenCV
-    Pickle
-    NumPy
+### OpenCV-Python, Pickle, & NumPy
 
-To train the neural network, the following Python libraries are needed:
-    NumPy
-    OpenCV-Python
-    TensorFlow
-    Keras
-    scikit-learn
+To train the neural network on your own data, the following Python libraries are needed:
+### NumPy, OpenCV-Python, TensorFlow, Keras, & scikit-learn
 
 ```bash
 pip install opencv-python
@@ -38,9 +32,12 @@ from tensorflow import keras
 ```
 then press "Run". You will be prompted to input a filepath leading to the image you wish to be interpreted. The program will then return it's best guess after processing. 
 
+### train.py
+Use this script to train the neural network on your own dataset. Simply update ```python dataset_dir``` and adjust the parameters, including ```python batch_size``` and ```python epochs``` if needed.
+
 ## Commands
 
-Use 'exit' to end the program runtime. 
+Use 'exit' to end the program runtime.
 
 ## License
 
