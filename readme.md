@@ -33,7 +33,7 @@ from tensorflow import keras
 then press "Run". You will be prompted to input a filepath leading to the image you wish to be interpreted. The program will then return it's best guess after processing. 
 
 ### train.py
-Use this script to train the neural network on your own dataset. Simply update ```python dataset_dir``` and adjust the parameters, including ```python batch_size``` and ```python epochs``` if needed.
+Use this script to train the neural network on your own dataset. Simply update ```dataset_dir``` and adjust the parameters, including ```batch_size``` and ```epochs``` if needed.
 
 ## Commands
 
