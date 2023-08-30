@@ -26,7 +26,7 @@ pip install scikit-learn
 
 ## Usage
 
-"test.py"
+### test.py
 While the program runs, the user may input a filepath leading to an image of a Pokemon. The script will load it and pass it through the neural network, returning its best guess of which of the first 151 Pokemon is pictured.
 
 ensure the following libraries are properly imported:
